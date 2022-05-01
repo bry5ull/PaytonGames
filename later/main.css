@@ -1,0 +1,171 @@
+/* site styling goes here */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+/* stylize overall page */
+
+body {
+    font-family: "Source Sans Pro";
+    background-color: #eee;
+}
+
+.newspaper-container {
+    margin: 40px 100px 40px 100px;
+    background-color: white;
+    width: 760px;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    box-shadow: 1px 1px #ddd;
+    padding: 20px;
+}
+
+main {
+    padding-bottom: 1em;
+    border-bottom: 1px solid #eee;
+}
+
+/* make images uniform (I know it's bad to set to pixels, I should resize the images) */
+
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 150px;
+}
+
+/* stylize text */
+
+p.copy {
+    text-align: justify;
+}
+
+p.copyright {
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Abril Fatface";
+    text-align: center;
+    font-size: 2.67em;
+    margin-top: 0;
+}
+
+h2 {
+    color: black;
+    font-family: "Roboto Slab";
+    margin-bottom: 0;
+}
+    
+h4 {
+    color: black;
+    font-family: "Roboto Slab";
+}
+
+h5 {
+    color: #dd3232;
+    font-family: "Abril Fatface";
+}
+
+/* top navigation */
+
+nav {
+    position: sticky;
+    top: 0px;
+    z-scale: 2;
+    background-color: white;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+nav a {
+    color: #777;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+    }
+
+nav li {
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
+
+/* display articles in grid layout */
+
+.more-articles {
+    display: grid;
+    grid-template-columns: (6, auto);
+    gap: 20px;
+    grid-auto-rows: auto;
+}
+
+#article-one {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+#article-two {
+    grid-column: 4 / span 3;
+    grid-row: 1;
+}
+
+#article-three {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+
+#article-four {
+    grid-column: 3 / span 2;
+    grid-row: 2;
+}
+
+#article-five {
+    grid-column: 5 / span 2;
+    grid-row: 2;
+}
+
+/* footer */
+
+footer {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+footer a {
+    color: #777;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+
+    }
+
+footer li {
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
