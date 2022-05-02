@@ -1,4 +1,4 @@
-/* game styling goes here */
+/* Version 0.1.1 NOT FOR PUBLICATION */
 
 @import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Architects+Daughter&family=Futura');
 
@@ -35,7 +35,7 @@ img {
     border: 4px solid #FEE440;
     border-radius: 12px;
     object-fit: cover;
-    width: 100%;
+    width: 300px;
     height: 300px;
 }
 
